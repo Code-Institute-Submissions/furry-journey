@@ -37,3 +37,10 @@ As a first time visitor I want...
 * To use the contact page and any social networks they may have so that staff can answer general queries.
 * To sign up to a newsletter and stay up to date on new deals on services, treatments and also learn more about any changes to the clinic.
 * To checkout deals or offers on services and treatments as a loyal customer to the clinic.
+
+### Wireframes
+
+- <a href="assets/wireframes/wireframes.pdf" target="_blank">All Wireframes</a><br>
+- <a href="assets/wireframes/mobile-wireframe.png" target="_blank">Mobile Wireframe</a>
+- <a href="assets/wireframes/tablet-wireframe.png" target="_blank">Tablet Wireframe</a>
+- <a href="assets/wireframes/desktop-wireframe.png" target="_blank">Desktop Wireframe</a>
