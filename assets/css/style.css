@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-light .navbar-toggler {
+	color: rgb(0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+li{
+    margin-left: 20px;
+    text-align: center;
+}
