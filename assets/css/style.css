@@ -75,6 +75,34 @@ div > h4{
     font-weight: bold;
 }
 
+/* FOOTER */
+
+footer{
+    color: #fff;
+    background-color: #644200;
+    border-color: #644200;
+}
+
+.footer-links, .footer-links > li, .footer-item > a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: left;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.footer-items{
+    margin-top: 25px;
+}
+
+.social-links > i{
+    margin: 10px 0px;
+}
+
+
 /* HOMEPAGE MEDIA QUERIES */
 
 @media only screen and (min-width: 768px) {
