@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -55,8 +55,40 @@ li{
 
 /* MAIN CONTENT */
 
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1000px;
+}
+
 .about-images{
     width: 100%;
+    height: 600px;
+}
+.fj-about > h1{
+    font-weight: 600;
+    text-align: center;
+}
+
+.fj-about{
+    margin: 40px 0px;
+}
+
+
+.fj-benefits{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fj-benefits > h2{
+    font-weight: 600;
+}
+
+
+.fj-benefit-item{
+    padding: 50px;
+}
+
+.fj-benefit-item > i{
+    margin: 20px;
 }
 
 /* FOOTER */
@@ -89,8 +121,14 @@ footer{
 
 /* HOMEPAGE MEDIA QUERIES */
 
-@media only screen and (min-width: 768px) {
-    .btn {
-      width: 45vw;
+@media only screen and (max-width: 768px) {
+    .about-images{
+        width: 100%;
+        height: 100%;
     }
-  }
+
+    .fj-benefit-item{
+        padding: 20px;
+    }
+}
+
