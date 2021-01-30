@@ -1,18 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 
 body{
     font-family: 'Open Sans', sans-serif;
-}
-
-.bg-image{
-    background-image: url(../images/main-bg-dog.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 /* NAVIGATION BAR */
@@ -20,38 +9,19 @@ body{
 header{
     background-color: #644200;
     border-color: #644200;
+    font-weight: 600;
 }
 
-.navbar-light .navbar-brand > a{
-	color: rgba(255, 255, 255, 0.9);
-	font-weight: 800;
+h1{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 600;
 }
-
-.navbar-light .navbar-brand:hover > a{
-	color: rgba(255, 255, 255, 0.9);
-	font-weight: 800;
-}
-
-
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-    color: rgb(255, 255, 255);
-    font-weight: 900;
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: rgb(255, 255, 255);
-}
-
-.navbar-light .navbar-toggler {
-	color: rgb(0, 0, 0);
-	border-color: rgba(0, 0, 0, 0);
-}
-
-li{
+ 
+/* li{
     margin-left: 20px;
     text-align: center;
-}
+} */
 
 /* MAIN CONTENT */
 
@@ -89,6 +59,27 @@ li{
 
 .fj-benefit-item > i{
     margin: 20px;
+}
+
+/* OUR SERVICES - MAIN CONTENT */
+
+.service{
+    padding: 15px;
+}
+
+form{
+    padding: 15px;
+}
+
+.newsletter-button{
+    width: 100%;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #644200;
+    border-color: #644200;
+    font-weight: 600;
 }
 
 /* FOOTER */
