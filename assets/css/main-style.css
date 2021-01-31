@@ -91,6 +91,13 @@ form{
     font-weight: 600;
 }
 
+/* NEWSLETTER SIGNED UP PAGE */
+
+.newsletter-dog-img{
+    width: 100%;
+    margin: 10px;
+}
+
 /* FOOTER */
 
 footer{
