@@ -9,6 +9,11 @@ body {
     color: #fff;
 }
 
+h1, 
+h2 {
+    margin: 40px 0px;
+}
+
 h3,
 h4 {
     font-weight: 600;
@@ -91,16 +96,28 @@ footer {
     text-align: center;
 }
 
-.about-furry-journey > h1, h2{
-    margin: 40px 0px;
-}
-
 .about-perks{
     margin: 30px 0px;
 }
 
 .about-perks > h6{
     margin-top: 10px;
+}
+
+/* SERVICES.HTML - MAIN CONTENT */
+
+.services-furry-journey{
+    color: #000;
+    font-weight: 300;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+form{
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -119,3 +136,4 @@ footer {
         height: 100%;
     }
 }
+
