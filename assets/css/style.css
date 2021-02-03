@@ -85,7 +85,7 @@ footer {
 }
 
 .landing-page-section {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 /* ABOUT.HTML - MAIN CONTENT */
@@ -117,7 +117,16 @@ footer {
 
 form{
     margin-bottom: 15px;
+}
+
+.submit-button{
     text-align: center;
+}
+
+/* CONTACT.HTML - MAIN CONTENT */
+
+.contact-furry-journey{
+    color: #000;
 }
 
 /* MEDIA QUERIES */
