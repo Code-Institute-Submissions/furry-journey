@@ -1,32 +1,33 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #fff;
 }
 
-h3, h4{
+h3,
+h4 {
     font-weight: 600;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
 
-a:hover{
+a:hover {
     color: #c4840e;
 }
 
-.btn{
+.btn {
     font-weight: 800;
     background-color: #644200;
     border-color: #644200;
-    height: 50px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #c4840e;
     border-color: #c4840e;
     transition: ease;
@@ -34,32 +35,34 @@ a:hover{
 
 /* NAVIGATION BAR */
 
-nav{
+nav {
     background-color: #644200;
     font-weight: 600;
 }
 
-.nav-link{
+.nav-link {
     margin-left: 20px;
     text-align: center;
 }
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: #644200;
     padding: 25px;
 }
 
-.footer-list-items{
+.footer-list-items {
     list-style: none;
     padding: 0;
 }
 
 /* INDEX.HTML - LANDING PAGE MAIN CONTENT */
 
-.landing-page{
+.landing-page {
     height: 100vh;
+
+    /* CSS TRICKS */
     background-image: url(../images/main-bg-dog.jpg);
     background-position: center;
     -webkit-background-size: cover;
@@ -70,16 +73,17 @@ footer{
     overflow: hidden;
 }
 
-.landing-page-section{
-    margin-bottom: 40px;
+.landing-page-section {
+    margin-bottom: 60px;
 }
+
+
 
 /* MEDIA QUERIES */
 
 /* lANDING PAGE */
 @media only screen and (min-width: 768px) {
     .btn {
-      width: 45vw;
+        width: 45vw;
     }
-  }
-
+}
