@@ -68,44 +68,44 @@
     <h1 class="text-center">CONTACT US</h1>
     <form>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">FIRST NAME</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="firstName" class="form-label">FIRST NAME</label>
+        <input type="text" class="form-control" id="firstName" aria-describedby="firstName" required>
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">LAST NAME</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="lastName" class="form-label">LAST NAME</label>
+        <input type="text" class="form-control" id="lastName" aria-describedby="lastName" required>
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">MOBILE NUMBER</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="mobileNumber" class="form-label">MOBILE NUMBER</label>
+        <input type="number" class="form-control" id="mobileNumber" aria-describedby="mobileNumber" required>
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="emailAddress" class="form-label">EMAIL</label>
+        <input type="email" class="form-control" id="emailAddress" aria-describedby="emailAddress" required>
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">PET NAME</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="petName" class="form-label">PET NAME</label>
+        <input type="text" class="form-control" id="petName" aria-describedby="petName" required>
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">PICK A TIME FOR YOUR PETS APPOINTMENT</label>
-        <select class="form-select" aria-label="Default select example">
-          <option selected>09:00 AM</option>
-          <option selected>10:00 AM</option>
-          <option selected>11:00 AM</option>
-          <option selected>12:00 PM</option>
-          <option selected>13:00 PM</option>
-          <option selected>14:00 PM</option>
-          <option selected>15:00 PM</option>
-          <option selected>16:00 PM</option>
-          <option selected>17:00 PM</option>
-          <option selected>18:00 PM</option>
-          <option selected>19:00 PM</option>
+        <select class="form-select" aria-label="Select appointment time">
+          <option value="1" selected>09:00 AM</option>
+          <option value="2">10:00 AM</option>
+          <option value="3">11:00 AM</option>
+          <option value="4">12:00 PM</option>
+          <option value="5">13:00 PM</option>
+          <option value="6">14:00 PM</option>
+          <option value="7">15:00 PM</option>
+          <option value="8">16:00 PM</option>
+          <option value="9">17:00 PM</option>
+          <option value="10">18:00 PM</option>
+          <option value="11">19:00 PM</option>
         </select>
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">WHAT WOULD YOU LIKE US TO CHECK OR DO?</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+        <label for="requestDescription" class="form-label">WHAT WOULD YOU LIKE US TO CHECK OR DO?</label>
+        <textarea class="form-control" id="requestDescription" rows="4"></textarea>
       </div>
       <div class="submit-button">
         <a href="appointment-booked.html" class="btn btn-primary">BOOK APPOINTMENT NOW</a>
