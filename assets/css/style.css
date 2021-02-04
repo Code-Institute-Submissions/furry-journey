@@ -140,6 +140,13 @@ form{
     margin-bottom: 150px;
 }
 
+/* APPOINTMENT-BOOKED.html - MAIN CONTENT */
+
+.appointment-booked-main{
+    height: 100vh;
+    color: #000;
+}
+
 /* MEDIA QUERIES */
 
 /* lANDING PAGE */
