@@ -74,7 +74,7 @@ footer {
     height: 100vh;
 
     /* CSS TRICKS */
-    background-image: url(../images/main-bg-dog.jpg);
+    background-image: url(../images/main-bg-dog.webp);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
