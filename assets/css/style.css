@@ -129,6 +129,17 @@ form{
     color: #000;
 }
 
+/* NEWSLETTER-SIGNEDUP.HTML - MAIN CONTENT */
+
+.newsletter-main{
+    height: 100vh;
+}
+
+.newsletter-main > section{
+    color: #000;
+    margin-bottom: 150px;
+}
+
 /* MEDIA QUERIES */
 
 /* lANDING PAGE */
@@ -138,9 +149,13 @@ form{
     }
 }
 
-/* ABOUT PAGE */
 @media only screen and (max-width: 768px) {
     .about-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .newsletter-dog-img{
         width: 100%;
         height: 100%;
     }
