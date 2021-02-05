@@ -40,7 +40,7 @@
     <!-- NAVIGATION BAR -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
+            <div class="container-xxl">
                 <a class="navbar-brand" href="index.html"><i class="fas fa-paw"></i> FURRY JOURNEY</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@
 
     <!-- MAIN CONTENT -->
     <main class="container">
-        <section class="about-furry-journey">
+        <section class="about-furry-journey text-center">
             <h1>ABOUT FURRY JOURNEY</h1>
             <p>Our main goal is to ensure that your pet gets the best care possible with our state of the art clinic.
             </p>
@@ -80,7 +80,7 @@
                 height="486">
         </section>
         <section class="container about-furry-journey">
-            <h2>WHY CHOOSE FURRY JOURNEY</h2>
+            <h2 class="text-center">WHY CHOOSE FURRY JOURNEY</h2>
             <div class="row justify-content-md-center text-center">
                 <div class="col-md-3 about-perks">
                     <i class="fas fa-stopwatch fa-3x"></i>
@@ -109,6 +109,15 @@
                     <h3 class="about-perks-heading">Free Parking</h3>
                 </div>
             </div>
+            <form action="/newsletter-signedup.html">
+                <div class="mb-3">
+                    <label for="newsletter" class="form-label">EMAIL</label>
+                    <input type="email" class="form-control" id="newsletter" aria-describedby="newsletter" required>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" class="btn btn-primary">SIGN UP TO OUR NEWSLETTER</button>
+                </div>
+            </form>
         </section>
     </main>
 
@@ -158,6 +167,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>
