@@ -1,6 +1,6 @@
 # Furry Journey
 
-![Furry Journey Responsive Layouts](https://github.com/adelliott92/furry-journey/tree/main/assets/images/responsive-layouts.webp)
+![Furry Journey Responsive Layouts](assets/images/responsive-layouts.webp)
 
 ## About
 Furry Journey is a fictional veterinary clinic where pet owners can view services and treatments available for their pets and book appointments in a quick and easy manner. Users can sign up for a newsletter to receive news about the clinic and learn more about new deals on services and treatments. The website's main goal is to help users look for their desired service and book appointments for their pet in just under two clicks.
@@ -41,10 +41,10 @@ As a first time visitor I want...
 
 ### Wireframes
 #### Desktop Wireframe
-![Desktop Wireframe](https://github.com/adelliott92/furry-journey/tree/main/assets/images/desktop-wireframe.png)
+![Desktop Wireframe](/assets/wireframes/desktop-wireframe.png)
 
 #### Mobile Wireframe
-[](https://github.com/adelliott92/furry-journey/tree/main/assets/images/mobile-wireframe.png)
+![Mobile Wireframe](assets/wireframes/mobile-wireframe.png)
 <a href="assets/wireframes/tablet-wireframe.png" target="_blank">Tablet Wireframe</a>
 
 <a name="features"></a>
